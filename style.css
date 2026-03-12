@@ -447,19 +447,20 @@ button.danger-btn:hover {
     position: fixed !important;
     bottom: 24px;
     right: 24px;
-    width: 56px;
     height: 56px;
-    border-radius: 50% !important;
+    padding: 0 24px !important;
+    border-radius: 28px !important;
     background: linear-gradient(135deg, #ef4444, #dc2626) !important;
     color: white !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    gap: 8px;
     border: none !important;
     box-shadow: 0 6px 20px rgba(239, 68, 68, 0.5);
     z-index: 999;
     display: flex !important;
     align-items: center;
     justify-content: center !important;
-    padding: 0 !important;
     cursor: pointer;
     animation: fabPulse 2s infinite;
 }

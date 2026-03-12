@@ -586,6 +586,9 @@ function init() {
     const savedXml = localStorage.getItem('faultTreeXml_blank');
     if (savedXml) {
         parseDrawioXml(savedXml, true);
+    } else if (typeof xmlData !== 'undefined' && xmlData) {
+        // 使用從 data.js 載入的本地變數
+        parseDrawioXml(xmlData, true, true);
     } else {
         // 優先讀取初版 data_test.xml
         fetch('data_test.xml')
