@@ -1,0 +1,21 @@
+{
+  "name": "ECOCO 智能維修助手",
+  "short_name": "維修助手",
+  "description": "機台異常與火災事故緊急應變引導工具",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "hammer.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "hammer.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
