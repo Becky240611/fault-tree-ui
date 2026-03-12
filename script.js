@@ -877,20 +877,6 @@ let titleClickTimer = null;
 const headerIcon = document.querySelector('.app-header h1 svg');
 if (headerIcon) {
     headerIcon.style.cursor = 'pointer';
-    headerIcon.addEventListener('click', () => {
-        titleClickCount++;
-        clearTimeout(titleClickTimer);
-        
-        if (titleClickCount >= 5) {
-            titleClickCount = 0;
-            // 溫和且防呆的安全提示
-            alert("👋 您似乎正在尋找出口？\n若您已是管理職或內勤，請聯繫您的營運支援單位取得『專屬管理口令與快捷鍵』。\n若您是外勤同仁，請點擊確定並繼續您的日常排查操作。");
-        }
-        
-        titleClickTimer = setTimeout(() => {
-            titleClickCount = 0;
-        }, 1500); // 1.5 秒無動作則重置
-    });
 }
 
 // 管理層指南切換與關閉
