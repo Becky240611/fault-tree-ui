@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6" pages="3">
   <diagram name="AI 收瓶機" id="fwHIzKBvrJO-y4ychkAo">
-    <mxGraphModel dx="11182" dy="3902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -801,6 +801,48 @@
         <mxCell id="E8tBMDCZDO4O4YSyMe8R-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="K908短路" vertex="1">
           <mxGeometry height="60" width="60" x="-5620" y="-660" as="geometry" />
         </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-9" edge="1" parent="1" source="mBfaTB0FQ7iTr4QlE_YK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bhumDuwL8L-hcWn-9Lvb-16" value=" ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4405" y="-990" />
+              <mxPoint x="-6615" y="-990" />
+            </Array>
+            <mxPoint x="-4525" y="-1030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-18" edge="1" parent="1" source="bhumDuwL8L-hcWn-9Lvb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bhumDuwL8L-hcWn-9Lvb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="復原原廠線路&lt;br&gt;&lt;div&gt;1. 將 J17 從電控盤拔除&lt;/div&gt;&lt;div&gt;2. 接回原廠設定線路&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="-6680" y="-810" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-12" edge="1" parent="1" source="bhumDuwL8L-hcWn-9Lvb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bhumDuwL8L-hcWn-9Lvb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-21" edge="1" parent="1" source="bhumDuwL8L-hcWn-9Lvb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" target="bhumDuwL8L-hcWn-9Lvb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-13" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;direction=north;" value="" vertex="1">
+          <mxGeometry height="100" width="60" x="-6645" y="-540" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(222, 222, 222);&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;運作正常&lt;/span&gt;&lt;br&gt;&lt;/span&gt;原本接線鬆脫&lt;/div&gt;&lt;div&gt;或電控盤異常&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="101" x="-6731" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-15" edge="1" parent="1" source="bhumDuwL8L-hcWn-9Lvb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bhumDuwL8L-hcWn-9Lvb-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="J17 線路及分選門檢修" vertex="1">
+          <mxGeometry height="60" width="92" x="-6661" y="-940" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-17" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;shadow=0;dashed=0;" value="測試分選門功能&lt;br&gt;啟動設備後觀察運作" vertex="1">
+          <mxGeometry height="40" width="150" x="-6690" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-19" edge="1" parent="1" source="bhumDuwL8L-hcWn-9Lvb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="bhumDuwL8L-hcWn-9Lvb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhumDuwL8L-hcWn-9Lvb-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;依然異常&lt;br&gt;檢查原廠線路&lt;/div&gt;&lt;div&gt;Pin腳是否掉落&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="101" x="-6600" y="-340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1349,7 +1391,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="guxGgJwp4gOKZ0xmpfVM" name="二代電池機">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10438" dy="3715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
